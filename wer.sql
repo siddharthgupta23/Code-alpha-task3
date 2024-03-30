@@ -1,0 +1,15 @@
+create database travel_iterany_planner;
+show databases;
+use travel_iterany_planner;
+create table account (un varchar(20), n varchar(20),a varchar (35), security varchar(45),an varchar(55));
+show tables;
+select * from account;
+create table ctm(un varchar(40),id varchar(15),number varchar(35),name varchar (40),gender varchar(45),country varchar(55),address varchar(85),phone  varchar(57), email  varchar(86));
+select * from ctm;
+create table hotel( name varchar(30), costperson varchar(20), acroom varchar(20),food_included varchar(20));
+insert into hotel values('Madarian Orientation Hotel','3400','1000','1700');
+insert into hotel values('Four seasons Hotel','2400','900','700');
+insert into hotel values('Raddison Blue Hotel','4400','1900','1300');
+select  * from hotel;
+create table bh(un varchar(20), name varchar(30),persons varchar(40), days varchar(25),ac varchar(20),food varchar(20),id varchar(10),number varchar(30),phone varchar(20),price varchar(40));
+select * from bh;
